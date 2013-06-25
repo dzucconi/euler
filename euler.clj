@@ -1,5 +1,4 @@
 ; Problem 1
-
 (defn check [x]
   (if (or (= (rem x 3) 0)
           (= (rem x 5) 0)) x))
